@@ -1,0 +1,6 @@
+node_modules
+## webstorm configs
+.idea/
+## playground
+src/sandbox.ts
+dist

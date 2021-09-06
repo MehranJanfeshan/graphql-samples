@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2018",
+    "noImplicitAny": false,
+    "moduleResolution": "node",
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "strictNullChecks": false,
+    "strict": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["node_modules/*", "src/types/*"]
+    }
+  },
+  "include": [
+    "src/**/*",
+    "test/**/*",
+    "index.d.ts"
+  ]
+}
